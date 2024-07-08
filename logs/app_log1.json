@@ -1,0 +1,59 @@
+{"level":"logger.info","ts":"[2024-06-24 11:28:34.998]","caller":"bootstrap/router.go:45","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 11:28:34.998]","caller":"bootstrap/router.go:54","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-06-24 11:33:37.704]","caller":"bootstrap/router.go:45","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 11:33:37.705]","caller":"bootstrap/router.go:54","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-06-24 13:34:27.955]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 13:34:27.955]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-06-24 13:44:11.853]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 13:44:11.887]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-06-24 13:45:02.758]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 13:45:02.758]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-06-24 13:45:14.251]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 13:45:14.252]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-06-24 13:51:15.159]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 13:51:15.159]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-06-24 13:52:34.608]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 13:52:34.608]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-06-24 13:53:17.108]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 13:53:17.109]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-06-24 13:53:58.754]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 13:53:58.755]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-06-24 13:55:18.439]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 13:55:18.440]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-06-24 13:56:05.965]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 13:56:05.966]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-06-24 14:21:52.075]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 14:21:52.076]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-06-24 14:54:53.124]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 14:54:53.124]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-06-24 15:03:19.971]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 15:03:19.971]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-06-24 15:06:02.244]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 15:06:02.244]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-06-24 15:06:30.012]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 15:06:30.013]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-06-24 15:07:32.593]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 15:07:32.594]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-06-24 15:17:52.084]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 15:17:52.084]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-06-24 15:32:15.960]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-06-24 15:32:15.960]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.error","ts":"[2024-07-08 13:30:30.720]","caller":"bootstrap/db.go:52","msg":"mysql connect failed, err:","err":"dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"logger.info","ts":"[2024-07-08 13:35:19.779]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-08 13:35:19.779]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.error","ts":"[2024-07-08 13:36:26.535]","caller":"bootstrap/db.go:52","msg":"mysql connect failed, err:","err":"dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"logger.info","ts":"[2024-07-08 13:37:26.245]","caller":"bootstrap/router.go:47","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-08 13:37:26.246]","caller":"bootstrap/router.go:56","msg":"Server exiting"}
+{"level":"logger.error","ts":"[2024-07-08 14:25:09.058]","caller":"bootstrap/db.go:52","msg":"mysql connect failed, err:","err":"dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"logger.info","ts":"[2024-07-08 14:25:24.169]","caller":"bootstrap/router.go:50","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-08 14:25:24.169]","caller":"bootstrap/router.go:59","msg":"Server exiting"}
+{"level":"logger.error","ts":"[2024-07-08 14:25:25.665]","caller":"bootstrap/db.go:52","msg":"mysql connect failed, err:","err":"dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"logger.info","ts":"[2024-07-08 14:30:56.745]","caller":"bootstrap/router.go:50","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-08 14:30:56.745]","caller":"bootstrap/router.go:59","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-07-08 14:33:19.401]","caller":"bootstrap/router.go:50","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-08 14:33:19.401]","caller":"bootstrap/router.go:59","msg":"Server exiting"}
+{"level":"logger.error","ts":"[2024-07-08 14:33:21.210]","caller":"bootstrap/db.go:52","msg":"mysql connect failed, err:","err":"Error 1049 (42000): Unknown database 'panda'"}
+{"level":"logger.info","ts":"[2024-07-08 14:34:29.531]","caller":"bootstrap/router.go:50","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-08 14:34:29.531]","caller":"bootstrap/router.go:59","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-07-08 15:34:59.764]","caller":"bootstrap/router.go:50","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-08 15:34:59.765]","caller":"bootstrap/router.go:59","msg":"Server exiting"}
