@@ -57,3 +57,18 @@
 {"level":"logger.info","ts":"[2024-07-08 14:34:29.531]","caller":"bootstrap/router.go:59","msg":"Server exiting"}
 {"level":"logger.info","ts":"[2024-07-08 15:34:59.764]","caller":"bootstrap/router.go:50","msg":"Shutdown Server ..."}
 {"level":"logger.info","ts":"[2024-07-08 15:34:59.765]","caller":"bootstrap/router.go:59","msg":"Server exiting"}
+{"level":"logger.error","ts":"[2024-07-09 17:44:27.497]","caller":"bootstrap/db.go:117","msg":"migrate table failed","err":"failed to parse '' as default value for float, got error: strconv.ParseFloat: parsing \"''\": invalid syntax"}
+{"level":"logger.info","ts":"[2024-07-09 17:47:03.334]","caller":"bootstrap/router.go:56","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-09 17:47:03.334]","caller":"bootstrap/router.go:65","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-07-09 17:48:26.308]","caller":"bootstrap/router.go:56","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-09 17:48:26.308]","caller":"bootstrap/router.go:65","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-07-09 17:51:14.390]","caller":"bootstrap/router.go:56","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-09 17:51:14.391]","caller":"bootstrap/router.go:65","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-07-09 17:52:17.301]","caller":"bootstrap/router.go:56","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-09 17:52:17.302]","caller":"bootstrap/router.go:65","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-07-09 17:53:01.560]","caller":"bootstrap/router.go:56","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-09 17:53:01.561]","caller":"bootstrap/router.go:65","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-07-09 17:54:18.651]","caller":"bootstrap/router.go:56","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-09 17:54:18.651]","caller":"bootstrap/router.go:65","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-07-09 17:54:46.513]","caller":"bootstrap/router.go:56","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-09 17:54:46.514]","caller":"bootstrap/router.go:65","msg":"Server exiting"}

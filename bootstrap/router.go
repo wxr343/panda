@@ -18,12 +18,19 @@ func setRouter() *gin.Engine {
 	router := gin.Default()
 
 	// 注册分组路由
+	// homeGroup 首页
 	homeGroup := router.Group("")
 	routev1.SetHomeRoute(homeGroup)
+	// apiGroup 部分api
 	apiGroup := router.Group("/api")
 	routev1.SetApiGroupRoutes(apiGroup)
+	// userGroup 用户相关
 	userGroup := router.Group("/user")
 	routev1.SetUserGroupRoutes(userGroup)
+	// calculator 计算器
+	calculatorGroup := router.Group("/calculator")
+	routev1.SetCalculatorRoute(calculatorGroup)
+
 	return router
 }
 
