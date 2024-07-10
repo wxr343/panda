@@ -12,6 +12,7 @@ type objectService struct {
 
 var ObjectService = new(objectService)
 
+// ObjectPush 插入数据库
 func (objectService *objectService) ObjectPush(params request.Object) (err error, object models.Object) {
 	var result = global.App.DB.Where("name = ?", params.Name).Select("id").First(&models.Object{})
 	if result.RowsAffected != 0 {
@@ -52,4 +53,27 @@ func (objectService *objectService) ObjectPush(params request.Object) (err error
 	}
 	err = global.App.DB.Create(&object).Error
 	return
+}
+
+// ObjectQuery 查询数据库
+func (objectService *objectService) ObjectQuery(params request.ObjectQuery) (err error, object []models.Object) {
+
+	var result = global.App.DB.Where("length >= ? and lengthUnit = ?", params.Length, params.LengthUnit).Find(&object)
+	if result.RowsAffected != 0 {
+		//err = errors.New("不存在对象")
+		return
+	}
+	err = errors.New("不存在对象")
+	return
+}
+
+// ObjectDelete 删除数据库对象
+func (objectService *objectService) ObjectDelete(params request.ObjectDelete) (err error) {
+	err = global.App.DB.Where("name = ?", params.Name).Delete(&models.Object{}).Error
+	if err != nil {
+		global.App.Log.Sugar().Error(params.Name, ",删除失败err：", err)
+		return
+	}
+
+	return nil
 }

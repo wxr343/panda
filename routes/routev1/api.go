@@ -7,6 +7,9 @@ import (
 )
 
 func SetApiGroupRoutes(router *gin.RouterGroup) {
+	router.PUT("/config/addView", func(c *gin.Context) {
+		c.JSON(http.StatusOK, "/config/addView")
+	})
 	router.GET("/ping", func(c *gin.Context) {
 		c.String(http.StatusOK, "group")
 	})

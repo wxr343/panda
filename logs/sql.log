@@ -3985,3 +3985,1284 @@
 
 2024/07/09 17:54:42 D:/GO/goworkspace/src/panda/app/services/calculator.go:17
 [174.462ms] [rows:1] SELECT `id` FROM `objects` WHERE name = '李膨江2' AND `objects`.`deleted_at` IS NULL ORDER BY `objects`.`id` LIMIT 1
+
+2024/07/10 11:35:57 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[59.328ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:35:58 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[139.982ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:35:58 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[129.890ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'users' AND table_type = 'BASE TABLE'
+
+2024/07/10 11:35:58 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[118.547ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:35:58 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.096ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:35:58 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.680ms] [rows:-] SELECT * FROM `users` LIMIT 1
+
+2024/07/10 11:35:58 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[470.254ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'users' ORDER BY ORDINAL_POSITION
+
+2024/07/10 11:35:59 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[63.285ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:35:59 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[125.315ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:35:59 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[120.028ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_mobile'
+
+2024/07/10 11:35:59 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[62.652ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:35:59 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[130.864ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:35:59 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[125.128ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_deleted_at'
+
+2024/07/10 11:35:59 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[70.134ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:35:59 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[129.557ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:35:59 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[118.737ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'statements' AND table_type = 'BASE TABLE'
+
+2024/07/10 11:35:59 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[61.696ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:36:00 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.516ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:36:00 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[138.114ms] [rows:-] SELECT * FROM `statements` LIMIT 1
+
+2024/07/10 11:36:00 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[132.662ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'statements' ORDER BY ORDINAL_POSITION
+
+2024/07/10 11:36:00 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[56.682ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:36:00 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[121.837ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:36:00 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[124.309ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'statements' AND index_name = 'idx_statements_deleted_at'
+
+2024/07/10 11:36:00 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[63.005ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:36:00 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.996ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:36:00 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[120.268ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'objects' AND table_type = 'BASE TABLE'
+
+2024/07/10 11:36:01 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[79.320ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:36:01 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[135.727ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:36:01 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[129.049ms] [rows:-] SELECT * FROM `objects` LIMIT 1
+
+2024/07/10 11:36:01 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[134.087ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'objects' ORDER BY ORDINAL_POSITION
+
+2024/07/10 11:36:01 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[63.003ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:36:01 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[147.710ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:36:01 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[166.025ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_length_unit'
+
+2024/07/10 11:36:01 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[65.168ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:36:02 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[116.770ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:36:02 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[120.226ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_mass'
+
+2024/07/10 11:36:02 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[58.884ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:36:02 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.244ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:36:02 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[125.655ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_mass_unit'
+
+2024/07/10 11:36:02 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[63.716ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:36:02 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[122.247ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:36:02 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[128.210ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_deleted_at'
+
+2024/07/10 11:36:02 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[62.763ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:36:02 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[116.170ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:36:03 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[131.281ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_length'
+
+2024/07/10 11:36:11 D:/GO/goworkspace/src/panda/app/services/calculator.go:60 Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== ?) AND `objects`.`deleted_at` IS NULL' at line 1
+[64.245ms] [rows:0] SELECT * FROM `objects` WHERE (length >= 1.2 and lengthUnit == 'm') AND `objects`.`deleted_at` IS NULL
+
+2024/07/10 11:37:11 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[68.724ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:37:11 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[126.571ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:37:11 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[116.966ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'users' AND table_type = 'BASE TABLE'
+
+2024/07/10 11:37:11 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[58.968ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:37:12 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[159.921ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:37:12 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[120.491ms] [rows:-] SELECT * FROM `users` LIMIT 1
+
+2024/07/10 11:37:12 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[141.302ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'users' ORDER BY ORDINAL_POSITION
+
+2024/07/10 11:37:12 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[58.410ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:37:12 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[120.715ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:37:12 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[117.639ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_mobile'
+
+2024/07/10 11:37:12 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[90.566ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:37:12 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[149.347ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:37:13 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[138.233ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_deleted_at'
+
+2024/07/10 11:37:13 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[68.159ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:37:13 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[191.637ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:37:13 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[202.817ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'statements' AND table_type = 'BASE TABLE'
+
+2024/07/10 11:37:13 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[65.165ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:37:13 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[123.421ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:37:13 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.678ms] [rows:-] SELECT * FROM `statements` LIMIT 1
+
+2024/07/10 11:37:13 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[150.804ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'statements' ORDER BY ORDINAL_POSITION
+
+2024/07/10 11:37:13 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[59.436ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:37:14 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[146.874ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:37:14 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[121.022ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'statements' AND index_name = 'idx_statements_deleted_at'
+
+2024/07/10 11:37:14 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[60.087ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:37:14 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[168.678ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:37:14 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[259.354ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'objects' AND table_type = 'BASE TABLE'
+
+2024/07/10 11:37:14 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[59.789ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:37:14 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[154.674ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:37:15 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[137.289ms] [rows:-] SELECT * FROM `objects` LIMIT 1
+
+2024/07/10 11:37:15 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[141.059ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'objects' ORDER BY ORDINAL_POSITION
+
+2024/07/10 11:37:15 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[131.386ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:37:15 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[123.879ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:37:15 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.266ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_length_unit'
+
+2024/07/10 11:37:15 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[58.096ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:37:15 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[130.195ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:37:15 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[130.856ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_mass'
+
+2024/07/10 11:37:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[64.810ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:37:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[113.119ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:37:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[129.095ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_mass_unit'
+
+2024/07/10 11:37:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[61.231ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:37:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[154.266ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:37:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[116.222ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_deleted_at'
+
+2024/07/10 11:37:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[68.598ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:37:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[169.650ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:37:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[131.492ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_length'
+
+2024/07/10 11:37:21 D:/GO/goworkspace/src/panda/app/services/calculator.go:60 Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== ?) AND `objects`.`deleted_at` IS NULL' at line 1
+[63.585ms] [rows:0] SELECT * FROM `objects` WHERE (length >= 1.2 and lengthUnit == 'm') AND `objects`.`deleted_at` IS NULL
+
+2024/07/10 11:59:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[50.656ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:59:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[118.404ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:59:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[117.280ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'users' AND table_type = 'BASE TABLE'
+
+2024/07/10 11:59:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[79.749ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:59:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[128.412ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:59:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[148.651ms] [rows:-] SELECT * FROM `users` LIMIT 1
+
+2024/07/10 11:59:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[110.194ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'users' ORDER BY ORDINAL_POSITION
+
+2024/07/10 11:59:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[57.900ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:59:17 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[120.039ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:59:17 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.449ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_mobile'
+
+2024/07/10 11:59:17 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[59.913ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:59:17 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[162.843ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:59:17 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[113.948ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_deleted_at'
+
+2024/07/10 11:59:17 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[58.822ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:59:17 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[122.728ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:59:17 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[141.983ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'statements' AND table_type = 'BASE TABLE'
+
+2024/07/10 11:59:17 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[57.295ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:59:18 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[122.862ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:59:18 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[156.884ms] [rows:-] SELECT * FROM `statements` LIMIT 1
+
+2024/07/10 11:59:18 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[139.954ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'statements' ORDER BY ORDINAL_POSITION
+
+2024/07/10 11:59:18 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[62.507ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:59:18 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[116.638ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:59:18 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[149.717ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'statements' AND index_name = 'idx_statements_deleted_at'
+
+2024/07/10 11:59:18 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[70.325ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:59:18 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[137.712ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:59:19 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[126.303ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'objects' AND table_type = 'BASE TABLE'
+
+2024/07/10 11:59:19 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[57.650ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:59:19 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[115.835ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:59:19 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[148.141ms] [rows:-] SELECT * FROM `objects` LIMIT 1
+
+2024/07/10 11:59:19 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[197.107ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'objects' ORDER BY ORDINAL_POSITION
+
+2024/07/10 11:59:19 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[170.040ms] [rows:0] ALTER TABLE `objects` ADD `length_unit` varchar(191) NOT NULL COMMENT '物体长度单位'
+
+2024/07/10 11:59:19 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[154.786ms] [rows:0] ALTER TABLE `objects` ADD `mass_unit` varchar(191) NOT NULL COMMENT '物体质量单位'
+
+2024/07/10 11:59:19 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[66.169ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:59:20 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[161.443ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:59:20 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[168.644ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_length'
+
+2024/07/10 11:59:20 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[102.004ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:59:20 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[110.025ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:59:20 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[160.445ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_length_unit'
+
+2024/07/10 11:59:20 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[56.727ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:59:20 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.013ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:59:21 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[191.409ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_mass'
+
+2024/07/10 11:59:21 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[73.545ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:59:21 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[113.847ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:59:21 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.364ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_mass_unit'
+
+2024/07/10 11:59:21 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[59.636ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 11:59:21 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[140.505ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 11:59:21 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[159.331ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_deleted_at'
+
+2024/07/10 11:59:34 D:/GO/goworkspace/src/panda/app/services/calculator.go:17 record not found
+[104.179ms] [rows:0] SELECT `id` FROM `objects` WHERE name = '李膨江2' AND `objects`.`deleted_at` IS NULL ORDER BY `objects`.`id` LIMIT 1
+
+2024/07/10 11:59:34 D:/GO/goworkspace/src/panda/app/services/calculator.go:54 Error 1364 (HY000): Field 'lengthUnit' doesn't have a default value
+[252.604ms] [rows:0] INSERT INTO `objects` (`name`,`length`,`length_unit`,`mass`,`mass_unit`,`created_at`,`updated_at`,`deleted_at`) VALUES ('李膨江2',1.8,'m',82,'kg','2024-07-10 11:59:34.252','2024-07-10 11:59:34.252',NULL)
+
+2024/07/10 13:12:52 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[60.192ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:12:52 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[124.298ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:12:52 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[134.218ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'users' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:12:52 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[46.322ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:12:52 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[118.413ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:12:52 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[160.034ms] [rows:-] SELECT * FROM `users` LIMIT 1
+
+2024/07/10 13:12:52 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[129.812ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'users' ORDER BY ORDINAL_POSITION
+
+2024/07/10 13:12:52 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[59.717ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:12:53 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[152.560ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:12:53 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[178.478ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_deleted_at'
+
+2024/07/10 13:12:53 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[65.102ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:12:53 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[118.008ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:12:53 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[123.102ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_mobile'
+
+2024/07/10 13:12:53 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[60.904ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:12:53 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[118.782ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:12:53 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[178.284ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'statements' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:12:54 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[61.137ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:12:54 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[118.401ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:12:54 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[122.895ms] [rows:-] SELECT * FROM `statements` LIMIT 1
+
+2024/07/10 13:12:54 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[116.530ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'statements' ORDER BY ORDINAL_POSITION
+
+2024/07/10 13:12:54 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[58.495ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:12:54 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[123.252ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:12:54 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[131.831ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'statements' AND index_name = 'idx_statements_deleted_at'
+
+2024/07/10 13:12:54 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[67.793ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:12:54 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[145.628ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:12:55 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[122.180ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'objects' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:12:55 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[201.109ms] [rows:0] CREATE TABLE `objects` (`id` bigint unsigned AUTO_INCREMENT,`name` varchar(191) NOT NULL COMMENT '物体名称',`length` float NOT NULL COMMENT '物体长度',`length_unit` varchar(191) NOT NULL COMMENT '物体长度单位',`mass` float NOT NULL COMMENT '物体质量',`mass_unit` varchar(191) NOT NULL COMMENT '物体质量单位',`created_at` datetime NULL,`updated_at` datetime NULL,`deleted_at` datetime NULL,PRIMARY KEY (`id`),INDEX `idx_objects_length` (`length`),INDEX `idx_objects_length_unit` (`length_unit`),INDEX `idx_objects_mass` (`mass`),INDEX `idx_objects_mass_unit` (`mass_unit`),INDEX `idx_objects_deleted_at` (`deleted_at`))
+
+2024/07/10 13:18:10 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[96.200ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:18:10 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[170.071ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:18:10 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[115.794ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'users' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:18:10 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[59.717ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:18:10 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.967ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:18:10 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[123.592ms] [rows:-] SELECT * FROM `users` LIMIT 1
+
+2024/07/10 13:18:11 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[171.621ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'users' ORDER BY ORDINAL_POSITION
+
+2024/07/10 13:18:11 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[84.900ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:18:11 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[117.102ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:18:11 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[130.280ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_mobile'
+
+2024/07/10 13:18:11 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[60.480ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:18:11 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[158.019ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:18:11 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[171.933ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_deleted_at'
+
+2024/07/10 13:18:11 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[66.063ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:18:11 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[163.448ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:18:12 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[239.868ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'statements' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:18:12 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[77.207ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:18:12 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[122.513ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:18:12 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[136.880ms] [rows:-] SELECT * FROM `statements` LIMIT 1
+
+2024/07/10 13:18:12 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[142.605ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'statements' ORDER BY ORDINAL_POSITION
+
+2024/07/10 13:18:12 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[55.837ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:18:12 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[143.528ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:18:13 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[136.690ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'statements' AND index_name = 'idx_statements_deleted_at'
+
+2024/07/10 13:18:13 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[59.288ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:18:13 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[121.507ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:18:13 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.428ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'objects' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:18:13 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[220.103ms] [rows:0] CREATE TABLE `objects` (`id` bigint unsigned AUTO_INCREMENT,`name` varchar(191) NOT NULL COMMENT 'name',`length` float NOT NULL COMMENT 'length',`length_unit` varchar(191) NOT NULL COMMENT 'lengthUnit',`mass` float NOT NULL COMMENT 'mass',`mass_unit` varchar(191) NOT NULL COMMENT 'massUnit',`created_at` datetime NULL,`updated_at` datetime NULL,`deleted_at` datetime NULL,PRIMARY KEY (`id`),INDEX `idx_objects_length` (`length`),INDEX `idx_objects_length_unit` (`length_unit`),INDEX `idx_objects_mass` (`mass`),INDEX `idx_objects_mass_unit` (`mass_unit`),INDEX `idx_objects_deleted_at` (`deleted_at`))
+
+2024/07/10 13:18:19 D:/GO/goworkspace/src/panda/app/services/calculator.go:17 record not found
+[118.115ms] [rows:0] SELECT `id` FROM `objects` WHERE name = '李膨江2' AND `objects`.`deleted_at` IS NULL ORDER BY `objects`.`id` LIMIT 1
+
+2024/07/10 13:18:20 D:/GO/goworkspace/src/panda/app/services/calculator.go:54 SLOW SQL >= 200ms
+[283.558ms] [rows:1] INSERT INTO `objects` (`name`,`length`,`length_unit`,`mass`,`mass_unit`,`created_at`,`updated_at`,`deleted_at`) VALUES ('李膨江2',1.8,'m',82,'kg','2024-07-10 13:18:19.792','2024-07-10 13:18:19.792',NULL)
+
+2024/07/10 13:18:42 D:/GO/goworkspace/src/panda/app/services/calculator.go:17 record not found
+[149.766ms] [rows:0] SELECT `id` FROM `objects` WHERE name = '李膨江' AND `objects`.`deleted_at` IS NULL ORDER BY `objects`.`id` LIMIT 1
+
+2024/07/10 13:18:42 D:/GO/goworkspace/src/panda/app/services/calculator.go:54 SLOW SQL >= 200ms
+[254.287ms] [rows:1] INSERT INTO `objects` (`name`,`length`,`length_unit`,`mass`,`mass_unit`,`created_at`,`updated_at`,`deleted_at`) VALUES ('李膨江',1.8,'m',82,'kg','2024-07-10 13:18:42.644','2024-07-10 13:18:42.644',NULL)
+
+2024/07/10 13:18:58 D:/GO/goworkspace/src/panda/app/services/calculator.go:60 Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== ?) AND `objects`.`deleted_at` IS NULL' at line 1
+[69.676ms] [rows:0] SELECT * FROM `objects` WHERE (length >= 1.2 and lengthUnit == 'm') AND `objects`.`deleted_at` IS NULL
+
+2024/07/10 13:21:39 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[56.026ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:21:39 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[114.191ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:21:39 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[116.798ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'users' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:21:39 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[59.747ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:21:39 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.722ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:21:39 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[133.673ms] [rows:-] SELECT * FROM `users` LIMIT 1
+
+2024/07/10 13:21:39 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[118.255ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'users' ORDER BY ORDINAL_POSITION
+
+2024/07/10 13:21:39 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[58.415ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:21:39 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[118.782ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:21:40 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[120.583ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_mobile'
+
+2024/07/10 13:21:40 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[69.145ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:21:40 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[112.188ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:21:40 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.365ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_deleted_at'
+
+2024/07/10 13:21:40 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[56.981ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:21:40 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[120.198ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:21:40 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[146.964ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'statements' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:21:40 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[95.922ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:21:40 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[108.295ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:21:40 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[127.365ms] [rows:-] SELECT * FROM `statements` LIMIT 1
+
+2024/07/10 13:21:41 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[122.465ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'statements' ORDER BY ORDINAL_POSITION
+
+2024/07/10 13:21:41 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[58.396ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:21:41 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[118.933ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:21:41 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[121.748ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'statements' AND index_name = 'idx_statements_deleted_at'
+
+2024/07/10 13:21:41 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[58.341ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:21:41 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[124.767ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:21:41 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[113.619ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'objects' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:21:41 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[198.093ms] [rows:0] CREATE TABLE `objects` (`id` bigint unsigned AUTO_INCREMENT,`name` varchar(191) NOT NULL COMMENT 'name',`length` float NOT NULL COMMENT 'length',`length_unit` varchar(191) NOT NULL COMMENT 'lengthUnit',`mass` float NOT NULL COMMENT 'mass',`mass_unit` varchar(191) NOT NULL COMMENT 'massUnit',`created_at` datetime NULL,`updated_at` datetime NULL,PRIMARY KEY (`id`),INDEX `idx_objects_length` (`length`),INDEX `idx_objects_length_unit` (`length_unit`),INDEX `idx_objects_mass` (`mass`),INDEX `idx_objects_mass_unit` (`mass_unit`))
+
+2024/07/10 13:21:47 D:/GO/goworkspace/src/panda/app/services/calculator.go:17 record not found
+[120.884ms] [rows:0] SELECT `id` FROM `objects` WHERE name = '李膨江' ORDER BY `objects`.`id` LIMIT 1
+
+2024/07/10 13:21:47 D:/GO/goworkspace/src/panda/app/services/calculator.go:54 SLOW SQL >= 200ms
+[293.291ms] [rows:1] INSERT INTO `objects` (`name`,`length`,`length_unit`,`mass`,`mass_unit`,`created_at`,`updated_at`) VALUES ('李膨江',1.8,'m',82,'kg','2024-07-10 13:21:47.581','2024-07-10 13:21:47.581')
+
+2024/07/10 13:22:01 D:/GO/goworkspace/src/panda/app/services/calculator.go:17 record not found
+[140.679ms] [rows:0] SELECT `id` FROM `objects` WHERE name = '李膨江2' ORDER BY `objects`.`id` LIMIT 1
+
+2024/07/10 13:22:01 D:/GO/goworkspace/src/panda/app/services/calculator.go:54 SLOW SQL >= 200ms
+[301.828ms] [rows:1] INSERT INTO `objects` (`name`,`length`,`length_unit`,`mass`,`mass_unit`,`created_at`,`updated_at`) VALUES ('李膨江2',1.8,'m',82,'kg','2024-07-10 13:22:01.513','2024-07-10 13:22:01.513')
+
+2024/07/10 13:22:04 D:/GO/goworkspace/src/panda/app/services/calculator.go:17 record not found
+[121.032ms] [rows:0] SELECT `id` FROM `objects` WHERE name = '李膨江3' ORDER BY `objects`.`id` LIMIT 1
+
+2024/07/10 13:22:04 D:/GO/goworkspace/src/panda/app/services/calculator.go:54 SLOW SQL >= 200ms
+[315.413ms] [rows:1] INSERT INTO `objects` (`name`,`length`,`length_unit`,`mass`,`mass_unit`,`created_at`,`updated_at`) VALUES ('李膨江3',1.8,'m',82,'kg','2024-07-10 13:22:04.343','2024-07-10 13:22:04.343')
+
+2024/07/10 13:22:07 D:/GO/goworkspace/src/panda/app/services/calculator.go:60 Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== ?' at line 1
+[289.197ms] [rows:0] SELECT * FROM `objects` WHERE length >= 1.2 and lengthUnit == 'm'
+
+2024/07/10 13:26:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[84.395ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:26:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[149.622ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:26:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[168.524ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'users' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:26:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[59.522ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:26:16 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[162.146ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:26:17 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[120.995ms] [rows:-] SELECT * FROM `users` LIMIT 1
+
+2024/07/10 13:26:17 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[178.705ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'users' ORDER BY ORDINAL_POSITION
+
+2024/07/10 13:26:17 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[65.453ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:26:17 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[140.500ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:26:17 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[142.511ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_mobile'
+
+2024/07/10 13:26:17 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[77.426ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:26:17 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[120.590ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:26:17 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[173.503ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_deleted_at'
+
+2024/07/10 13:26:18 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[87.679ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:26:18 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[136.112ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:26:18 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[139.207ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'statements' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:26:18 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[62.010ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:26:18 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[158.070ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:26:18 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[133.180ms] [rows:-] SELECT * FROM `statements` LIMIT 1
+
+2024/07/10 13:26:18 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[133.337ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'statements' ORDER BY ORDINAL_POSITION
+
+2024/07/10 13:26:18 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[73.559ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:26:19 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[189.733ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:26:19 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[160.537ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'statements' AND index_name = 'idx_statements_deleted_at'
+
+2024/07/10 13:26:19 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[57.273ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:26:19 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[160.015ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:26:19 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[144.187ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'objects' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:26:19 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[226.371ms] [rows:0] CREATE TABLE `objects` (`id` bigint unsigned AUTO_INCREMENT,`name` varchar(191) NOT NULL COMMENT 'name',`length` float NOT NULL COMMENT 'length',`length_unit` varchar(191) NOT NULL COMMENT 'lengthUnit',`mass` float NOT NULL COMMENT 'mass',`mass_unit` varchar(191) NOT NULL COMMENT 'massUnit',`created_at` datetime NULL,`updated_at` datetime NULL,PRIMARY KEY (`id`),INDEX `idx_objects_length` (`length`),INDEX `idx_objects_length_unit` (`length_unit`),INDEX `idx_objects_mass` (`mass`),INDEX `idx_objects_mass_unit` (`mass_unit`))
+
+2024/07/10 13:30:57 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[58.334ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:30:57 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[126.681ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:30:57 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[117.385ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'users' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:30:57 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[80.163ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:30:57 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[130.315ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:30:57 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[118.465ms] [rows:-] SELECT * FROM `users` LIMIT 1
+
+2024/07/10 13:30:57 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[154.827ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'users' ORDER BY ORDINAL_POSITION
+
+2024/07/10 13:30:57 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[58.842ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:30:58 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[145.302ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:30:58 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[129.543ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_deleted_at'
+
+2024/07/10 13:30:58 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[59.768ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:30:58 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[154.602ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:30:58 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[165.453ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_mobile'
+
+2024/07/10 13:30:58 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[63.379ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:30:58 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[137.421ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:30:58 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[138.063ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'statements' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:30:58 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[67.241ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:30:59 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[144.001ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:30:59 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.016ms] [rows:-] SELECT * FROM `statements` LIMIT 1
+
+2024/07/10 13:30:59 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[138.365ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'statements' ORDER BY ORDINAL_POSITION
+
+2024/07/10 13:30:59 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[60.405ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:30:59 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[150.283ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:30:59 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[138.284ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'statements' AND index_name = 'idx_statements_deleted_at'
+
+2024/07/10 13:30:59 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[80.882ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:31:00 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[198.544ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:31:00 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[198.462ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'objects' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:31:00 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[231.426ms] [rows:0] CREATE TABLE `objects` (`id` bigint unsigned AUTO_INCREMENT,`name` varchar(191) NOT NULL COMMENT '物体名称',`length` float NOT NULL COMMENT '物体长度',`lengthUnit` varchar(191) NOT NULL COMMENT '物体长度单位',`mass` float NOT NULL COMMENT '物体质量',`massUnit` varchar(191) NOT NULL COMMENT '物体质量单位',`created_at` datetime NULL,`updated_at` datetime NULL,PRIMARY KEY (`id`),INDEX `idx_objects_mass` (`mass`),INDEX `idx_objects_mass_unit` (`massUnit`),INDEX `idx_objects_length` (`length`),INDEX `idx_objects_length_unit` (`lengthUnit`))
+
+2024/07/10 13:31:49 D:/GO/goworkspace/src/panda/app/services/calculator.go:17 record not found
+[336.791ms] [rows:0] SELECT `id` FROM `objects` WHERE name = '李膨江3' ORDER BY `objects`.`id` LIMIT 1
+
+2024/07/10 13:31:50 D:/GO/goworkspace/src/panda/app/services/calculator.go:54 SLOW SQL >= 200ms
+[707.254ms] [rows:1] INSERT INTO `objects` (`name`,`length`,`lengthUnit`,`mass`,`massUnit`,`created_at`,`updated_at`) VALUES ('李膨江3',1.8,'m',82,'kg','2024-07-10 13:31:50.225','2024-07-10 13:31:50.225')
+
+2024/07/10 13:32:20 D:/GO/goworkspace/src/panda/app/services/calculator.go:17 record not found
+[154.140ms] [rows:0] SELECT `id` FROM `objects` WHERE name = '李膨江2' ORDER BY `objects`.`id` LIMIT 1
+
+2024/07/10 13:32:20 D:/GO/goworkspace/src/panda/app/services/calculator.go:54 SLOW SQL >= 200ms
+[285.371ms] [rows:1] INSERT INTO `objects` (`name`,`length`,`lengthUnit`,`mass`,`massUnit`,`created_at`,`updated_at`) VALUES ('李膨江2',1.8,'m',82,'kg','2024-07-10 13:32:20.1','2024-07-10 13:32:20.1')
+
+2024/07/10 13:32:25 D:/GO/goworkspace/src/panda/app/services/calculator.go:17 record not found
+[177.484ms] [rows:0] SELECT `id` FROM `objects` WHERE name = '李膨江' ORDER BY `objects`.`id` LIMIT 1
+
+2024/07/10 13:32:25 D:/GO/goworkspace/src/panda/app/services/calculator.go:54 SLOW SQL >= 200ms
+[391.971ms] [rows:1] INSERT INTO `objects` (`name`,`length`,`lengthUnit`,`mass`,`massUnit`,`created_at`,`updated_at`) VALUES ('李膨江',1.8,'m',82,'kg','2024-07-10 13:32:25.18','2024-07-10 13:32:25.18')
+
+2024/07/10 13:32:28 D:/GO/goworkspace/src/panda/app/services/calculator.go:60 Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== ?' at line 1
+[73.178ms] [rows:0] SELECT * FROM `objects` WHERE length >= 1.2 and lengthUnit == 'm'
+
+2024/07/10 13:34:26 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[62.799ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:34:26 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[129.615ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:34:26 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[127.691ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'users' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:34:26 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[54.402ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:34:26 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[151.898ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:34:26 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[136.504ms] [rows:-] SELECT * FROM `users` LIMIT 1
+
+2024/07/10 13:34:26 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[153.267ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'users' ORDER BY ORDINAL_POSITION
+
+2024/07/10 13:34:26 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[67.087ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:34:27 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[148.403ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:34:27 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[178.369ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_mobile'
+
+2024/07/10 13:34:27 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[57.473ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:34:27 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.527ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:34:27 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[122.469ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_deleted_at'
+
+2024/07/10 13:34:27 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[54.820ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:34:27 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[120.592ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:34:27 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[149.142ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'statements' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:34:28 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[75.100ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:34:28 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[300.481ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:34:28 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[118.882ms] [rows:-] SELECT * FROM `statements` LIMIT 1
+
+2024/07/10 13:34:28 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[280.050ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'statements' ORDER BY ORDINAL_POSITION
+
+2024/07/10 13:34:28 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[62.525ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:34:28 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[131.081ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:34:29 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[209.406ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'statements' AND index_name = 'idx_statements_deleted_at'
+
+2024/07/10 13:34:29 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[60.115ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:34:29 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.283ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:34:29 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[120.022ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'objects' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:34:29 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[108.931ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:34:29 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[160.788ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:34:29 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[120.646ms] [rows:-] SELECT * FROM `objects` LIMIT 1
+
+2024/07/10 13:34:29 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[139.448ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'objects' ORDER BY ORDINAL_POSITION
+
+2024/07/10 13:34:30 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[56.636ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:34:30 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[123.075ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:34:30 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[120.390ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_length'
+
+2024/07/10 13:34:30 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[55.031ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:34:30 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[121.150ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:34:30 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[138.329ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_length_unit'
+
+2024/07/10 13:34:30 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[67.371ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:34:30 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[121.391ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:34:30 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[130.931ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_mass'
+
+2024/07/10 13:34:30 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[58.151ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:34:31 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[139.235ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:34:31 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[137.719ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_mass_unit'
+
+2024/07/10 13:34:36 D:/GO/goworkspace/src/panda/app/services/calculator.go:60
+[132.073ms] [rows:3] SELECT * FROM `objects` WHERE length >= 1.2 and lengthUnit = 'm'
+
+2024/07/10 13:53:19 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[59.766ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:53:19 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[118.409ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:53:19 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[117.186ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'users' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:53:19 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[94.012ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:53:20 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[116.072ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:53:20 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[138.186ms] [rows:-] SELECT * FROM `users` LIMIT 1
+
+2024/07/10 13:53:20 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[131.494ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'users' ORDER BY ORDINAL_POSITION
+
+2024/07/10 13:53:20 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[60.917ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:53:20 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[120.459ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:53:20 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[129.062ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_mobile'
+
+2024/07/10 13:53:20 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[48.237ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:53:20 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[120.256ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:53:20 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[121.540ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_deleted_at'
+
+2024/07/10 13:53:20 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[58.047ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:53:21 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[129.594ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:53:21 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[109.244ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'statements' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:53:21 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[59.691ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:53:21 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[118.628ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:53:21 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[132.144ms] [rows:-] SELECT * FROM `statements` LIMIT 1
+
+2024/07/10 13:53:21 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[129.580ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'statements' ORDER BY ORDINAL_POSITION
+
+2024/07/10 13:53:21 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[58.180ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:53:21 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[152.531ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:53:21 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[117.613ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'statements' AND index_name = 'idx_statements_deleted_at'
+
+2024/07/10 13:53:22 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[59.313ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:53:22 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[122.660ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:53:22 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[117.419ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'objects' AND table_type = 'BASE TABLE'
+
+2024/07/10 13:53:22 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[59.776ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:53:22 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.187ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:53:22 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.200ms] [rows:-] SELECT * FROM `objects` LIMIT 1
+
+2024/07/10 13:53:22 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[123.642ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'objects' ORDER BY ORDINAL_POSITION
+
+2024/07/10 13:53:22 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[54.826ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:53:22 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[111.691ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:53:23 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[202.979ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_length'
+
+2024/07/10 13:53:23 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[52.776ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:53:23 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[111.442ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:53:23 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[120.871ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_length_unit'
+
+2024/07/10 13:53:23 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[56.563ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:53:23 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[129.943ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:53:23 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[111.124ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_mass'
+
+2024/07/10 13:53:23 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[57.828ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 13:53:23 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[120.651ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 13:53:23 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[143.941ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_mass_unit'
+
+2024/07/10 13:53:56 D:/GO/goworkspace/src/panda/app/services/calculator.go:72 SLOW SQL >= 200ms
+[300.227ms] [rows:1] DELETE FROM `objects` WHERE name = '李膨江3'
+
+2024/07/10 13:54:19 D:/GO/goworkspace/src/panda/app/services/calculator.go:72 SLOW SQL >= 200ms
+[233.917ms] [rows:0] DELETE FROM `objects` WHERE name = '李膨江4'
+
+2024/07/10 13:59:09 D:/GO/goworkspace/src/panda/app/services/calculator.go:72 SLOW SQL >= 200ms
+[286.597ms] [rows:1] DELETE FROM `objects` WHERE name = '李膨江2'
+
+2024/07/10 14:52:03 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[51.595ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 14:52:04 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[197.026ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 14:52:04 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[160.484ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'users' AND table_type = 'BASE TABLE'
+
+2024/07/10 14:52:04 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[58.459ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 14:52:04 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[189.305ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 14:52:04 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[119.999ms] [rows:-] SELECT * FROM `users` LIMIT 1
+
+2024/07/10 14:52:04 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[145.718ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'users' ORDER BY ORDINAL_POSITION
+
+2024/07/10 14:52:04 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[64.065ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 14:52:04 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[129.999ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 14:52:05 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[162.641ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_mobile'
+
+2024/07/10 14:52:05 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[76.175ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 14:52:05 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[174.545ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 14:52:05 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[145.698ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'users' AND index_name = 'idx_users_deleted_at'
+
+2024/07/10 14:52:05 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[100.515ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 14:52:05 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[140.655ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 14:52:05 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[148.029ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'statements' AND table_type = 'BASE TABLE'
+
+2024/07/10 14:52:05 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[71.761ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 14:52:06 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[138.901ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 14:52:06 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[207.427ms] [rows:-] SELECT * FROM `statements` LIMIT 1
+
+2024/07/10 14:52:06 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[138.462ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'statements' ORDER BY ORDINAL_POSITION
+
+2024/07/10 14:52:06 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[126.230ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 14:52:06 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[164.533ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 14:52:06 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[148.230ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'statements' AND index_name = 'idx_statements_deleted_at'
+
+2024/07/10 14:52:06 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[92.237ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 14:52:07 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[309.209ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 14:52:07 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[207.641ms] [rows:-] SELECT count(*) FROM information_schema.tables WHERE table_schema = 'panda' AND table_name = 'objects' AND table_type = 'BASE TABLE'
+
+2024/07/10 14:52:07 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[63.092ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 14:52:07 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[268.930ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 14:52:07 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[179.388ms] [rows:-] SELECT * FROM `objects` LIMIT 1
+
+2024/07/10 14:52:08 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[204.870ms] [rows:-] SELECT column_name, column_default, is_nullable = 'YES', data_type, character_maximum_length, column_type, column_key, extra, column_comment, numeric_precision, numeric_scale FROM information_schema.columns WHERE table_schema = 'panda' AND table_name = 'objects' ORDER BY ORDINAL_POSITION
+
+2024/07/10 14:52:08 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[128.951ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 14:52:08 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[183.539ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 14:52:08 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[358.622ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_length'
+
+2024/07/10 14:52:08 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[112.434ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 14:52:09 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[222.404ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 14:52:09 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[183.714ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_length_unit'
+
+2024/07/10 14:52:09 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[110.659ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 14:52:09 D:/GO/goworkspace/src/panda/bootstrap/db.go:111 SLOW SQL >= 200ms
+[260.741ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 14:52:09 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[176.607ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_mass'
+
+2024/07/10 14:52:09 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[64.410ms] [rows:-] SELECT DATABASE()
+
+2024/07/10 14:52:10 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[197.772ms] [rows:1] SELECT SCHEMA_NAME from Information_schema.SCHEMATA where SCHEMA_NAME LIKE 'panda%' ORDER BY SCHEMA_NAME='panda' DESC,SCHEMA_NAME limit 1
+
+2024/07/10 14:52:10 D:/GO/goworkspace/src/panda/bootstrap/db.go:111
+[149.566ms] [rows:-] SELECT count(*) FROM information_schema.statistics WHERE table_schema = 'panda' AND table_name = 'objects' AND index_name = 'idx_objects_mass_unit'
+
+2024/07/10 16:15:08 D:/GO/goworkspace/src/panda/app/services/calculator.go:61 SLOW SQL >= 200ms
+[349.969ms] [rows:1] SELECT * FROM `objects` WHERE length >= 1.2 and lengthUnit = 'm'
+
+2024/07/10 16:15:33 D:/GO/goworkspace/src/panda/app/services/calculator.go:61
+[178.654ms] [rows:1] SELECT * FROM `objects` WHERE length >= 1.2 and lengthUnit = 'm'

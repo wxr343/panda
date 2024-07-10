@@ -72,3 +72,25 @@
 {"level":"logger.info","ts":"[2024-07-09 17:54:18.651]","caller":"bootstrap/router.go:65","msg":"Server exiting"}
 {"level":"logger.info","ts":"[2024-07-09 17:54:46.513]","caller":"bootstrap/router.go:56","msg":"Shutdown Server ..."}
 {"level":"logger.info","ts":"[2024-07-09 17:54:46.514]","caller":"bootstrap/router.go:65","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-07-10 11:37:09.690]","caller":"bootstrap/router.go:56","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-10 11:37:09.691]","caller":"bootstrap/router.go:65","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-07-10 11:59:14.173]","caller":"bootstrap/router.go:56","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-10 11:59:14.174]","caller":"bootstrap/router.go:65","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-07-10 13:12:51.089]","caller":"bootstrap/router.go:56","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-10 13:12:51.089]","caller":"bootstrap/router.go:65","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-07-10 13:18:07.963]","caller":"bootstrap/router.go:56","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-10 13:18:07.963]","caller":"bootstrap/router.go:65","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-07-10 13:21:36.940]","caller":"bootstrap/router.go:56","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-10 13:21:36.940]","caller":"bootstrap/router.go:65","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-07-10 13:26:14.405]","caller":"bootstrap/router.go:56","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-10 13:26:14.406]","caller":"bootstrap/router.go:65","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-07-10 13:29:03.886]","caller":"bootstrap/router.go:56","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-10 13:29:03.886]","caller":"bootstrap/router.go:65","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-07-10 13:34:24.289]","caller":"bootstrap/router.go:56","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-10 13:34:24.289]","caller":"bootstrap/router.go:65","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-07-10 13:53:17.328]","caller":"bootstrap/router.go:56","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-10 13:53:17.328]","caller":"bootstrap/router.go:65","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-07-10 14:52:01.512]","caller":"bootstrap/router.go:56","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-10 14:52:01.513]","caller":"bootstrap/router.go:65","msg":"Server exiting"}
+{"level":"logger.info","ts":"[2024-07-10 17:09:31.713]","caller":"bootstrap/router.go:56","msg":"Shutdown Server ..."}
+{"level":"logger.info","ts":"[2024-07-10 17:09:31.715]","caller":"bootstrap/router.go:65","msg":"Server exiting"}
